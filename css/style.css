@@ -252,6 +252,7 @@ body{
 
 .form__textarea{
     height: 3.4rem;
+    resize: none;
 }
 
 .form__btn {
@@ -463,6 +464,10 @@ body{
     .gallery{
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: auto;
+    }
+
+    .form__textarea{
+        height: 5rem;
     }
 
     .cards {
