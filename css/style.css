@@ -195,6 +195,86 @@ body{
     object-fit: cover;
 }
 
+/* *Contacto */
+.contacto{
+    background-color: #141414;
+    padding-block: 3rem;
+}
+
+.contacto__title {
+    color: var(--background);
+    font-size: 3rem;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.form {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 500px;
+    background-color: var(--background);
+    display: flex;
+    flex-direction: column;
+    padding: 1.6rem;
+}
+
+.form__label {
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+    color: var(--white);
+    font-size: 1.2rem;
+}
+
+.form__label:nth-child(2){
+    margin-top: .8rem;
+}
+
+.form__input {
+    height: 2rem;
+    /* color: var(--background); */
+    font-weight: bold;
+    border-radius: 10px;
+    padding: .6rem .3rem;
+    border: none;
+}
+
+.form__input:focus{
+    color: var(--white);
+    background-color: #000;
+    outline: 2px solid --white;
+}
+
+.form__input::-webkit-input-placeholder{
+    color: var(--background);
+}
+
+.form__textarea{
+    height: 3.4rem;
+}
+
+.form__btn {
+    background-color: #006241;
+    border: none;
+    border-radius: .6rem;
+    padding: .4rem 5rem;
+    color: var(--white);
+    font-size: 1rem;
+    outline: 2px solid var(--white);
+    margin-top: 1.3rem;
+    align-self: flex-start;
+    transition: background-color .4s ease,
+                outline .4s ease;
+}
+
+.form__btn:hover{
+    background-color: var(--yellow);
+    outline: var(--yellow);
+    color: #000;
+}
+
+
 /* *Cards */
 .cards {
     padding: 3rem 2rem;
@@ -276,6 +356,7 @@ body{
     border: 2px solid var(--white);
     border-radius: 10px;
     width: max-content;
+    transition: all .4s ease;
 }
 
 .card__cta:hover{
