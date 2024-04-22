@@ -140,9 +140,11 @@ body{
     display: flex;
     flex-direction: column;
 }
+
 .presentation__texts {
     padding-block: 2rem;
 }
+
 .presentation__title {
     line-height: 1.2;
     font-size: 3.5rem;
